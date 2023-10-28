@@ -1,0 +1,18 @@
+/* src/app.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+/* In a custom CSS file, e.g., custom.css */
+.top-26 {
+    top: 7rem; /* 1.625rem is equivalent to 26px */
+}
+
+.GFG { 
+    color: #EC5E2A; 
+    font-size: 50px; 
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: white; 
+}

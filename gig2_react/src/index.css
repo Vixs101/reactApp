@@ -1,0 +1,40 @@
+/* src/styles/tailwind.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+.top-26 {
+    top: 7rem; /* 1.625rem is equivalent to 26px */
+}
+
+.bg-img { 
+    background-image: url(./assets/heroImage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.color {
+    color:#EC5E2A;
+}
+
+.btn {
+    background-color: #EC5E2A;
+    color: white;
+} 
+
+.mainBg {
+    background-image: url(./assets/main.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.color1 {
+    color:#6C6868;
+}
+.H {
+    height:70%
+}
+.bg-color {
+    background-color:#EC5E2A ;
+}
