@@ -130,8 +130,9 @@ function App() {
           </div>
 
         </div>
-      </section>        
+      </section>
 
+      <div className="absolute toop left-0 w-full">
       <footer className='flex gap-20 justify-between w-full h-325 px-24 pt-24' style={{backgroundColor: '#0E0E0E'}}>
         <div className='mr-24'>
           {/* logo */}
@@ -167,7 +168,7 @@ function App() {
           <p>Bratislava-nove Mesto</p>
         </div>
       </footer>
-
+      </div>
 
     </>
   )
